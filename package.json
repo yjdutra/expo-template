@@ -1,5 +1,5 @@
 {
-  "name": "yjdutra",
+  "name": "<APP_NAME>",
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
@@ -12,12 +12,28 @@
     "expo": "~53.0.17",
     "expo-status-bar": "~2.2.3",
     "react": "19.0.0",
-    "react-native": "0.79.5"
+    "react-dom": "19.0.0",
+    "react-native": "0.79.5",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/bottom-tabs": "^6.5.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-reanimated": "~3.17.4",
+    "styled-components": "^6.0.9"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
+    "@types/styled-components-react-native": "^5.2.5",
     "typescript": "~5.8.3"
   },
-  "private": true
+  "private": true,
+  "expo": {
+    "doctor": {
+      "reactNativeDirectoryCheck": {
+        "listUnknownPackages": false
+      }
+    }
+  }
 }
